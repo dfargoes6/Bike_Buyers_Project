@@ -1,0 +1,11 @@
+5--Viz
+
+Bike owned by bach amd married--pie
+people who have both bikes and cars based on age--histogram set bins
+Distribution by occupation on based who has bikes---tree chart
+bikes owned based upon income---bar set bins
+Map distribution area wise--donut chart
+
+Bike Purchased in every region based upon education
+
+SQL> select JOB, count(*)/(select count(*) as total from emp) as percentage from emp   group by job order by JOB;
